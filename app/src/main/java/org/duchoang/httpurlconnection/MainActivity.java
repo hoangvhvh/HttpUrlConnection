@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject jsonObject = jsonArray.getJSONObject(i);
                     String name = jsonObject.getString("name");
                     String email = jsonObject.getString("email");
-                    String imageUrl = "https://images.pexels.com/photos/2508735/pexels-photo-2508735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"; // Replace with your image URL
+                    String imageUrl = "https://images.pexels.com/photos/2508735/pexels-photo-2508735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
                     data.append("Name: ").append(name).append("\n");
                     data.append("Email: ").append(email).append("\n\n");
 
