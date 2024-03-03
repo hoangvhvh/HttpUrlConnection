@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HttpUrlConnection</string>
+    <string name="app_btn">Click to Show Users</string>
+</resources>
